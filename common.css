@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Dancing+Script');
+
+body {
+	background-color: #bacfbf;
+	line-height: 1.4;
+}
+
+a:link { 
+	color: #000000; 
+	text-decoration: none;
+}
+
+a:visited { 
+	color: #000000; 
+	text-decoration: none;
+}
+
+a:hover { 
+	color: #000000; 
+	text-decoration: underline;
+}
+
+.wrapper {
+	background-color: #ffffff;
+	margin: auto;
+	padding: 10px;
+}
+
+.name {
+	font-family: 'Dancing Script', cursive;
+	font-size: 50pt;
+}
+
+.menu {
+	font-family: 'Comfortaa', cursive;
+	font-size: 9pt;
+	float: right;
+	margin-bottom: 10px;
+}
+
+.submenu {
+	background-color: #a8a8a8;
+	font-family: 'Comfortaa', cursive;
+	font-size: 12pt;
+	color: #ffffff;
+	display: inline-block;
+	padding: 2px;
+	line-height: 1.0;
+}
+
+.content {
+	padding: 5px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	border-bottom: 1px dashed #a4a4a4;
+}
+
+.subcontent {
+	font-family: 'Comfortaa', cursive;
+	font-size: 11pt;
+	padding: 10px;
+}
+
+.highlight {
+	background-color: #f5ffd5;
+}
+
+.footer {
+	font-family: 'Comfortaa', cursive;
+	font-size: 9pt;
+	text-align: center;
+}
