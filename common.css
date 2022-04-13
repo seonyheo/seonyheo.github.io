@@ -65,6 +65,14 @@ a:hover {
 	background-color: #f5ffd5;
 }
 
+.note {
+	font-family: 'Comfortaa', cursive;
+	font-size: 8pt;
+  color: #ffffff;
+  padding: 2px;
+  background-color: #000000;
+}
+
 .footer {
 	font-family: 'Comfortaa', cursive;
 	font-size: 9pt;
