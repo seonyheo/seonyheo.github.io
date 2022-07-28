@@ -23,14 +23,14 @@ a:hover {
 .sidebar {
 	background-color: #f2f2f2;
   height: 100%;
-  width: 200px;
+  width: 250px;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
   overflow-x: hidden;
 	font-family: 'Comfortaa', cursive;
-	font-size: 9pt;
+	font-size: 10pt;
   padding: 0pt;
 }
 
@@ -48,7 +48,7 @@ a:hover {
 	margin-left: auto;
   margin-right: auto;
   font-family: 'Comfortaa', cursive;
-	font-size: 20pt;
+	font-size: 25pt;
 }
 
 .profile {
@@ -56,8 +56,9 @@ a:hover {
   margin-top: 10px;
 	margin-left: auto;
   margin-right: auto;
+  margin-bottom: 30px;
 	font-family: 'Comfortaa', cursive;
-	font-size: 8.5pt;
+	font-size: 11pt;
 }
 
 .sidebar ul {
@@ -70,19 +71,18 @@ a:hover {
 	margin-left: auto;
   margin-right: auto;
 	font-family: 'Comfortaa', cursive;
-	font-size: 10pt;
+	font-size: 14pt;
 }
 
 .main {
-	margin-left: 200px;
+	margin-left: 250px;
 	background-color: #ffffff;
-	padding: 0px 10px 10px 20px;
 }
 
 .title {
 	background-color: #000000;
 	font-family: 'Comfortaa', cursive;
-	font-size: 12pt;
+	font-size: 14pt;
 	color: #ffffff;
 	display: inline-block;
 	padding: 2px;
@@ -98,20 +98,12 @@ a:hover {
 
 .subcontent {
 	font-family: 'Comfortaa', cursive;
-	font-size: 10pt;
+	font-size: 12pt;
 	padding: 10px;
 }
 
 .highlight {
 	background-color: #f2f2f2;
-}
-
-.note {
-	font-family: 'Comfortaa', cursive;
-	font-size: 8pt;
-  color: #ffffff;
-  padding: 2px;
-  background-color: #000000;
 }
 
 .footer {
@@ -121,6 +113,6 @@ a:hover {
   margin-right: auto;
   width: 100%;
 	font-family: 'Comfortaa', cursive;
-	font-size: 9pt;
+	font-size: 11pt;
   text-align: center;
 }
