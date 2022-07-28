@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Comfortaa|Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
 
 body {
-	background-color: #f2f2f2;
 	line-height: 1.4;
 }
 
@@ -20,26 +19,68 @@ a:hover {
 	text-decoration: underline;
 }
 
-.wrapper {
-	background-color: #ffffff;
-	margin: auto;
-	padding: 10px;
+
+.sidebar {
+	background-color: #f2f2f2;
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+	font-family: 'Comfortaa', cursive;
+	font-size: 9pt;
+  padding: 0pt;
+}
+
+.center {
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .name {
-	font-family: 'Dancing Script', cursive;
-	font-size: 50pt;
+  width: 90%;
+	margin-left: auto;
+  margin-right: auto;
+  font-family: 'Comfortaa', cursive;
+	font-size: 20pt;
+}
+
+.profile {
+  width: 90%;
+  margin-top: 10px;
+	margin-left: auto;
+  margin-right: auto;
+	font-family: 'Comfortaa', cursive;
+	font-size: 8.5pt;
+}
+
+.sidebar ul {
+  list-style-type: ". ";
+  padding: 5px;
 }
 
 .menu {
+  width: 90%;
+	margin-left: auto;
+  margin-right: auto;
 	font-family: 'Comfortaa', cursive;
-	font-size: 9pt;
-	float: right;
-	margin-bottom: 10px;
+	font-size: 10pt;
 }
 
-.submenu {
-	background-color: #a8a8a8;
+.main {
+	margin-left: 200px;
+	background-color: #ffffff;
+	padding: 0px 10px 10px 20px;
+}
+
+.title {
+	background-color: #000000;
 	font-family: 'Comfortaa', cursive;
 	font-size: 12pt;
 	color: #ffffff;
@@ -57,12 +98,12 @@ a:hover {
 
 .subcontent {
 	font-family: 'Comfortaa', cursive;
-	font-size: 11pt;
+	font-size: 10pt;
 	padding: 10px;
 }
 
 .highlight {
-	background-color: #f5ffd5;
+	background-color: #f2f2f2;
 }
 
 .note {
@@ -74,7 +115,12 @@ a:hover {
 }
 
 .footer {
+  position: absolute;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 	font-family: 'Comfortaa', cursive;
 	font-size: 9pt;
-	text-align: center;
+  text-align: center;
 }
