@@ -23,7 +23,7 @@ a:hover {
 .sidebar {
 	background-color: #f2f2f2;
   height: 100%;
-  width: 230px;
+  width: 225px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -75,7 +75,7 @@ a:hover {
 }
 
 .main {
-	margin-left: 230px;
+	margin-left: 225px;
 	background-color: #ffffff;
 }
 
