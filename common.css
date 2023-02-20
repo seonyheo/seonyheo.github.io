@@ -23,13 +23,12 @@ a:hover {
 .sidebar {
 	background-color: #f2f2f2;
   height: 100%;
-  width: 250px;
+  width: 230px;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
   overflow-x: hidden;
-  overflow-y: hidden;
 	font-family: 'Comfortaa', cursive;
 	font-size: 10pt;
   padding: 0pt;
@@ -76,7 +75,7 @@ a:hover {
 }
 
 .main {
-	margin-left: 250px;
+	margin-left: 230px;
 	background-color: #ffffff;
 }
 
